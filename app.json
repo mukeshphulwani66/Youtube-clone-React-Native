@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "youtubeclone",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.cnq.ytclone",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.cnq.ytclone",
+      "buildNumber": "1.0.0"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
