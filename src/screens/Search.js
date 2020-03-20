@@ -5,7 +5,7 @@ import MiniCard from '../components/MiniCard'
 import Constant from 'expo-constants'
 import {useTheme} from '@react-navigation/native'
 import {useSelector,useDispatch} from 'react-redux'
-//https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=AIzaSyAhhQMjGR-moLv_Ac0leMJkZYg8YMoFIVI
+//https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=AIzaSyDtCWCduSedfthvh
 
 const SearchScreen = ({navigation})=>{
     const {colors} =  useTheme()
